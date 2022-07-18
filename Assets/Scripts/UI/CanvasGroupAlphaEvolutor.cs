@@ -25,5 +25,12 @@ namespace LOK1game.UI
         {
             _canvas.alpha = Mathf.Lerp(_canvas.alpha, _targetAlpha, Time.deltaTime * _speed);
         }
+
+        public void SetTargetAlpha(float value)
+        {
+            value = Mathf.Clamp01(value);
+
+            _targetAlpha = value;
+        }
     }
 }
