@@ -2,4 +2,5 @@
 {
     None,
     Default,
+    Intro,
 }

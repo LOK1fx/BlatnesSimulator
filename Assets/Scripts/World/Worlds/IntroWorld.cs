@@ -10,5 +10,10 @@ namespace LOK1game.World
         public override void Initialize()
         {
         }
+
+        public void LoadMainLevel()
+        {
+            TransitionLoad.SwitchToScene(Scenes.INTRO, Scenes.MAIN);
+        }
     }
 }

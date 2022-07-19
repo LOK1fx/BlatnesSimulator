@@ -30,7 +30,7 @@ namespace LOK1game
             {
                 _gameModeManager.AddGameMode(gamemode.Id, gamemode);
             }
-
+            
             _gameModeManager.SetGameMode(_standardGameModeId);
 
             OnInitialized?.Invoke();
