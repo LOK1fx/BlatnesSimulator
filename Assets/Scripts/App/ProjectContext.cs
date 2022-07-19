@@ -18,7 +18,7 @@ namespace LOK1game
         [SerializeField] private EGameModeId _standardGameModeId;
         [SerializeField] private List<BaseGameMode> _gameModes = new List<BaseGameMode>();
 
-        public override void Intialize()
+        public override void Initialize()
         {
             GameStateManager = new GameStateManager();
             _gameModeManager = new GameModeManager();

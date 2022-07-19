@@ -35,6 +35,6 @@ namespace LOK1game.World
             gameModeManager.SetGameMode(_standardGameModeOverride);
         }
 
-        public abstract void Intialize();
+        public abstract void Initialize();
     }
 }
